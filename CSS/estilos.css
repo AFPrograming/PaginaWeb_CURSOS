@@ -89,6 +89,12 @@ footer.contenedor > a{
 div{
     margin: 50px;
 }
+div.dividido{
+    display: flex;
+}
+div.contenido{
+    margin: 25px; 
+}
 ul{
     list-style-type: none;
     background-color: white;
@@ -115,4 +121,8 @@ hr{
     height: 3px;
     border-radius: 3px;
     background-color: black;
+}
+span.enfatizar{
+    color: #f77f00;
+    font-weight: bold;
 }
