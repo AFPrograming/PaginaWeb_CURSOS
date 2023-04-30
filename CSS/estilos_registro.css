@@ -18,7 +18,7 @@ body{
     background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
     background-size: 10px 10px;*/
     
-    background: url('../imagenes/fondo.jpg');
+    background: url('https://images.unsplash.com/photo-1605478185737-99ae313e940c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZvbmRvJTIwYXp1bHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60');
     /*Responsive*/
     /* display:flex; */
     min-height: 100vh;
