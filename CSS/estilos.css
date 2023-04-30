@@ -85,9 +85,17 @@ div.dividido{
     display: flex;
 }
 div.contenido{
-    margin: 25px; 
+    margin: 25px;
+}
+div.contenido-unidades{
+    margin: 0px;
+    width: 70%;
 }
 span.enfatizar{
     color: #f77f00;
     font-weight: bold;
+}
+img.contenido{
+    width: 230px;
+    height: 230px;
 }
