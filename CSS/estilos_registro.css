@@ -20,7 +20,7 @@ body{
     
     background: url('../imagenes/fondo.jpg');
     /*Responsive*/
-    display:flex;
+    /* display:flex; */
     min-height: 100vh;
 }
 
