@@ -91,6 +91,15 @@ div.contenido-unidades{
     margin: 0px;
     width: 70%;
 }
+div.contenido-foto{
+    margin: 0px;
+    width: 15%;
+}
+div.contenido-redes{
+    margin: 0px;
+    width: 15%;
+    display: flex;
+}
 span.enfatizar{
     color: #f77f00;
     font-weight: bold;
@@ -98,4 +107,8 @@ span.enfatizar{
 img.contenido{
     width: 230px;
     height: 230px;
+}
+img.persona{
+    width: auto;
+    height: 120px;
 }
