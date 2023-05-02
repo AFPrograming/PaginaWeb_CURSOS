@@ -3,8 +3,6 @@ ul {
   }
 
 .contenedor {
-
-
   display: grid;
   grid-template-columns: 60% 20% 20%;
   }
