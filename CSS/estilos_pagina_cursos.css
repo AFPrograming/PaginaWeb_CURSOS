@@ -1,0 +1,146 @@
+
+/*Fuentes*/
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+}
+
+/*Boton de registro*/
+
+/*paraque seccion se centre y ponga margen automatico*/
+.container{
+    max-width: 1400px;
+    margin: 50px;
+
+    
+}
+
+
+
+/*Seccion descripcion */
+
+#descripcion_curso .container{
+    text-align: justify;
+    padding: 200px 12px;
+    margin: 50px;
+}
+
+/*Seccion descripcion temas*/
+
+
+#cursos{
+    background-color: white;
+    color: black;
+    text-align: justify;
+    margin: 50px;
+}
+
+#cursos .container{
+    grid-gap: 100px;
+    padding: 50px 12px;
+    margin: 50px;
+}
+
+#cursos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+
+
+
+#cursos .flexible{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#cursos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 5px;
+    border-radius: 5px;
+    flex-basis: calc(33.33% - 60px); /* Establece el ancho  en un tercio del ancho del contenedor, menos el margen de 30px a la izquierda y derecha */
+}
+
+.carta img {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+
+.carta .button {
+
+    bottom: 10px;
+    left: 10px;
+    font-size: 1.5em;
+    max-width: 90%;
+    padding: 10px 20px;
+    border-radius: .1px;
+    background-color: #787AC3;
+    color: #FFF;    
+    text-align: center;
+
+  }
+
+
+
+/*Tamaño minimo de pantalla  para web*/
+@media (min-width: 700px){
+  
+
+    #cursos .flexible{
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+
+    #cursos p{
+        
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #cursos h2{
+        font-size: 2em;
+    }
+
+    #cursos h3{
+        margin-top: 0;
+    }
+
+    #cursos .carta{
+        padding: 10px;
+        background-size: 90% 100px;
+        background-repeat: no-repeat;
+     
+       
+    }
+  
+
+
+
+
+   
+}
+
+
+div .dividido{
+    display: flex;
+}
+div .contenido{
+    margin: 50px;
+}
+
+
