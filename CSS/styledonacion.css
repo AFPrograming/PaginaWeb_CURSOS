@@ -2,20 +2,18 @@ h1 {
   text-align: center;
 
 }
-  
-hr{
-  align-self: center;
-  border-bottom: 1px #706c6c dashed;
-  margin-bottom: 0%;
-  width: 100%;
-  
+body{
+  background: url('https://images.unsplash.com/photo-1583339522870-0d9f28cef33f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
 }
+  
 .texto-arial {
   font-family: Arial;
 }
 .form_tarjeta {
-  color:#706c6c;
-  margin-top: -1%;
+  color:white;
+  border: 1px solid #787AC3;
+  background-color:#787AC3 ;
+  
 }
 
 .form{
