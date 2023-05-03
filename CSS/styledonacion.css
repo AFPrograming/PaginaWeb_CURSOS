@@ -5,11 +5,17 @@ h1 {
   
 hr{
   align-self: center;
-  border-bottom: 1px #706c6c solid;
+  border-bottom: 1px #706c6c dashed;
+  margin-bottom: 0%;
+  width: 100%;
   
 }
 .texto-arial {
   font-family: Arial;
+}
+.form_tarjeta {
+  color:#706c6c;
+  margin-top: -1%;
 }
 
 .form{
@@ -57,6 +63,7 @@ hr{
   transform: translateY(10px);
   transition: transform .5s, color .3s;
 }
+
 
 .form_input:focus + .form_label,
 .form_input:not(:placeholder-shown) + .form_label
