@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="stylesheet" href="../css/styledonacion.css">
+    <title>Donar</title>
+</head>
+
+<body>
+    
+    <form class="form" id="registro_form">
+        <h1 class="form_titulo">Donación</h1>
+        
+        <div class="form_container" style="margin: 0%;">
+
+            <div class="form_group">
+                <input type=" text" id="name" class="form_input" placeholder=" ">
+                <label for="name" class="form_label">Nombre:</label>
+            </div>
+
+            <div class="form_group">
+                <input type=" text" id="email" class="form_input" placeholder=" ">
+                <label for="email" class="form_label">Correo:</label>
+            </div>
+
+            <div class="form_group">
+                <input type=" text" id="telefono" class="form_input" placeholder=" ">
+                <label for="telefono" class="form_label">Telefono:</label>
+            </div>
+
+            <div class="form_group">
+                <input type="number" id="cantidad" class="form_input" placeholder=" " min="5">
+                <label for="cantidad" class="form_label">Cantidad a Donar:</label>
+            </div>
+            <hr>
+            <label for="text" class="form_tarjeta">Tarjeta de Crédito</label>
+
+            
+            
+            <div class="form_group">
+                <input type="text" id="duenotarjeta" class="form_input" placeholder=" ">
+                <label for="duenotarjeta" class="form_label">Nombre completo dueño de tarjeta:</label>
+            </div>
+            <div class="form_group">
+                <input type="text" id="numtarjeta" class="form_input" placeholder=" ">
+                <label for="numtarjeta" class="form_label">Numero de tarjeta</label>
+            </div>
+            <div class="form_group">
+                <input type="date" id="fecha" class="form_input" placeholder=" ">
+                <label for="fecha" class="form_label">Fecha</label>
+            </div>
+            <div class="form_group">
+                <input type="text" id="csv" class="form_input" placeholder=" ">
+                <label for="csv" class="form_label">CSV</label>
+            </div>
+            <input type="submit" class="form_submit" value="Donar"  >
+        </div>
+    </form>
+    <script src="../js/donacion.js">  </script>
+</body>
+</html>
