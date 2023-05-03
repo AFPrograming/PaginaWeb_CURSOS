@@ -25,3 +25,22 @@ div.contenedor.oculto:hover p{
 div.contenedor.primero p:first-child{/*modificar el primer párrafo que encontremos*/
     font-variant: small-caps;/*Todas mayúsculas sólo las del inicio un poco más grandes*/
 }
+.contenedor.ejercicio {
+    display: flex;
+    justify-content: space-between;
+}
+  
+input[type="checkbox"] {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+}
+  
+.columna {
+    width: 30%;
+    text-align: left;
+    text-justify: left;
+    padding: 15px;
+    font-size: larger;
+}
