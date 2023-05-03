@@ -7,15 +7,23 @@
 .icono-azul{
     /* font-size: 2.5em; */
     color: cornflowerblue;
+    margin: 5px;
     /* vertical-align: bottom; */
 }
 .icono-naranja{
     /* font-size: 3em; */
     color: #f28482;
+    margin: 5px;
 }
 .icono-amarillo{
     color: #e9c46a;
+    margin: 5px;
 }
 .icono-rojo{
     color:crimson;
+    margin: 5px;
+}
+.icono-verde{
+    color: green;
+    margin: 5px;
 }

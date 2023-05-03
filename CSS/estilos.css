@@ -1,14 +1,6 @@
 body{
     margin:0%;
 }
-header{
-    color: white;
-    font-size: 20px;
-    background-color: black;
-    text-align: center;
-    padding: 1%;
-    height: 100px;
-}
 nav{
     width: 20%;
     float: left;
@@ -93,36 +85,30 @@ div.dividido{
     display: flex;
 }
 div.contenido{
-    margin: 25px; 
+    margin: 25px;
 }
-ul{
-    list-style-type: none;
-    background-color: white;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+div.contenido-unidades{
+    margin: 0px;
+    width: 70%;
 }
-li{
-    float: right;
+div.contenido-foto{
+    margin: 0px;
+    width: 15%;
 }
-li a{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-}
-li a:hover{
-    background-color: white;
-    color: slateblue;
-}
-hr{
-    width: 90%;
-    height: 3px;
-    border-radius: 3px;
-    background-color: black;
+div.contenido-redes{
+    margin: 0px;
+    width: 15%;
+    display: flex;
 }
 span.enfatizar{
     color: #f77f00;
     font-weight: bold;
+}
+img.contenido{
+    width: 230px;
+    height: 230px;
+}
+img.persona{
+    width: auto;
+    height: 120px;
 }
