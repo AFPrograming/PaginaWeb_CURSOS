@@ -5,6 +5,7 @@ ul {
 .contenedor {
     display: flex;
     justify-content: space-between;
+    margin: 0%;
   }
   
 .columna {
@@ -14,12 +15,12 @@ ul {
     padding: 15px;
   }
   
-footer {
+/* footer {
     height: 150px;
     display: flex;
     justify-content: space-around;
     background: rgb(20, 170, 184);
-}
+} */
 
 /*establece el estilo para el encabezado de la página*/
 header {
