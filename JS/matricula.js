@@ -4,6 +4,9 @@ function redireccionarRegistro(){
 function redireccionarPaginaUsuario(){
     window.location.href = "../HTML/paginaUsuario.html"
 }
+function redireccionarCursos(){
+    window.location.href = "../HTML/pagina_cursos.html"
+}
 function redireccionarContenidoMatesDiscretas(){
     window.location.href = "../HTML/ContenidoMatesDiscretas.html"
 }
