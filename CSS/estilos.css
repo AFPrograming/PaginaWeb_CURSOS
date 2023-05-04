@@ -88,8 +88,9 @@ div.dividido{
 div.contenido{
     margin: 25px;
 }
-div.CursosPrincipa{
-    max-height: 100px;
+div.desplazar{
+    flex-flow: row wrap;
+    margin:15px;
 }
 div.contenido-unidades{
     margin: 0px;
