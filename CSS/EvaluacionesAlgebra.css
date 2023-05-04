@@ -3,8 +3,10 @@ ul {
   }
 
 .contenedor {
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    
   }
   
   input[type="checkbox"] {
@@ -14,14 +16,16 @@ ul {
     transform: scale(2);
   }
 .columna {
-    width: 30%;
+    width: auto%;
+    height: auto;
     text-align: left;
     text-justify: left;
     padding: 15px;
     font-size: larger;
   }
   .columna3 {
-    width: 30%;
+    width: auto;
+    height: auto;
     text-align: left;
     text-justify: left;
     padding: 15px;
@@ -30,7 +34,8 @@ ul {
     margin: 5px;
   }
   .columna4 {
-    width: 30%;
+    width: auto;
+    height: auto;
     text-align: left;
     text-justify: left;
     padding: 15px;
@@ -44,7 +49,9 @@ ul {
   .columna ul {
     font-size: larger;
   }
-  
+  .columna input{
+    width: 90%;
+  }
   .columna1 {
     display: flex;
   }
@@ -67,6 +74,7 @@ header {
 
 /*establece el estilo para una sección de cursos*/
 .curso {
+  
   border: 2px solid #6CD1E1;
   max-width: 100%;
   margin-bottom: 30px;

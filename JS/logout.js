@@ -1,7 +1,7 @@
 
 const user = JSON.parse(localStorage.getItem('login_success')) || false
 if(!user){
-    window.location.href = '../html/pagina_principal.html'
+    window.location.href = '../html/paginaUsuario.html'
 }
 
 const logout = document.querySelector('#logout')

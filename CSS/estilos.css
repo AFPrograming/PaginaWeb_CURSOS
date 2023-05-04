@@ -64,7 +64,7 @@ footer.contenedor{
     /* justify-content: flex-end; justificado a la derecha */
     /* justify-content: space-between; cada uno en los extremos */
     justify-content: space-evenly; /*mismo espacio entre cada elemento */
-    height: 100px;
+    height: 60%;
     /*align-items: flex-start; /*alinear en el eje vertical, inicio del eje superior*/
     align-items: center; /*alinear en el eje vertical y al centro*/
     /*align-items: stretch;/*valor por defecto, ocupa todo el alto*/
@@ -83,11 +83,19 @@ footer.contenedor > a{
 div{
     margin: 50px;
 }
+div.miscursos{
+    margin: 10px;
+}
 div.dividido{
     display: flex;
+    justify-content: center;
 }
 div.contenido{
     margin: 25px;
+}
+div.desplazar{
+    flex-flow: row wrap;
+    margin:15px;
 }
 div.contenido-unidades{
     margin: 0px;
@@ -113,4 +121,16 @@ img.contenido{
 img.persona{
     width: auto;
     height: 120px;
+}
+ul.requisito{
+    list-style-type: square;
+}
+li.requisito{
+    float: initial;
+}
+h5.principal{
+    font-size: xx-large;
+    color:  #4361ee;
+    font-weight: bold;
+    text-align: center;
 }
