@@ -16,7 +16,8 @@ registro_form.addEventListener('submit', (e)=>  {
     if(validaTarjeta(ntarjeta)== false){
         return alert("tarjeta no válida");
     }
-    if(validarcsv(csv)== false){
+    
+    if(validarcsv(csv) == false ){
         return alert("csv no válida");
     }
 
@@ -28,24 +29,28 @@ window.location.href = '../html/Donacion.html'
 
 }
 );
-
+function validarnumeros(texto){
+    return /^[0-9]+$/.test(texto);
+}
 function validaTarjeta( tarjeta ){
-    if(tarjeta.length < 10){
-        console.log("falso")
-        return false ;
+    var auxiliar=validarnumeros(tarjeta)
+    console.log(auxiliar)
+    if(tarjeta.length >= 10 && /^[0-9]+$/.test(tarjeta)  ){
+        console.log("true")
+        return true ;
     }else{
-        console.log("verdadero")
-        return true;
+        console.log("falso")
+        return false;
     }
     
 }
 function validarcsv( csv ){
-    if(csv.length < 3){
-        console.log("falso")
-        return false ;
-    }else{
+    if(csv.length >= 3 && /^[0-9]+$/.test(csv) ){
         console.log("verdadero")
-        return true;
+        return true ;
+    }else{
+        console.log("falso")
+        return false;
     }
     
 }
