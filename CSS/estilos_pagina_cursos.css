@@ -9,138 +9,156 @@ li{ font-size: 1.25em;}
 
 
 
-
 body{
     font-family: 'Roboto', sans-serif;
     margin: 40px;
 }
 
-/*Boton de registro*/
+
+#imagen_logo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(8, 8, 8, 0.5),
+        rgba(7, 7, 7, 0.5)
+    )
+    ,url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGVhcm5pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*Color de texto logo*/
+#imagen_logo h1{
+    color: rgb(252, 248, 248);
+}
+
+
+#imagen_logo2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: 
+    url("https://productosdigital.com/wp-content/uploads/2020/11/Mis-cursos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*Color de texto logo*/
+#imagen_logo2 h1{
+    color: rgb(252, 248, 248);
+}
+
 
 /*paraque seccion se centre y ponga margen automatico*/
-.container{
-    max-width: 1400px;
-    margin: 50px;
+.contenedor{
 
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(25rem,1fr));
+    margin: 50px;
+    }
+    
+    .carta{
+        padding: 5px 50px;
+        gap:10px;
+      
+    }
+    
+    .carta img {
+        max-width: 90%;
+        margin: 10px;
+      }
+    
+    .carta .button {
+        bottom: 10px;
+        left: 10px;
+        font-size: 1.5em;
+        max-width: 90%;
+        padding: 10px 20px;
+        border-radius: .1px;
+        background-color: #787AC3;
+        color: #FFF;    
+        text-align: center;
+      }
+    
+
+
+/*para pagina de mis cursos*/
+
+.contenedorm {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 100px;
+  }
+  
+  .carta1 {
+    width: 200px;
+  }
+  
+  .carta1 img {
+    max-width: 90%;
+  }
+  
+  .carta2 {
+    flex-grow: 1;
+    gap: 20px;
+  }
+  
+.carta2 h3{
+margin: 50px;
+
+}
+
+
+  #imagen_logo3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient(
+        0deg,
+        rgba(8, 8, 8, 0.5),
+        rgba(7, 7, 7, 0.5)
+    )
+    ,url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGVhcm5pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 17vh;
+}
+/*Color de texto logo*/
+#imagen_logo3 h1{
+    color: rgb(252, 248, 248);
+    font-size: 2.5em;
     
 }
 
 
-
-/*Seccion descripcion */
-
-#descripcion_curso .container{
-    text-align: justify;
-    padding: 200px 12px;
-    margin: 50px;
-}
-
-/*Seccion descripcion temas*/
-
-
-#cursos{
-    background-color: white;
-    color: black;
-    text-align: justify;
-    margin: 50px;
-}
-
-#cursos .container{
-    grid-gap: 100px;
-    padding: 50px 12px;
-    margin: 50px;
-}
-
-#cursos h2{
-    margin-top: 0;
-    font-size: 3.2em;
-}
-
-
-
-
-#cursos .flexible{
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-}
-
-#cursos .carta{
-    background-position: center center;
-    background-size: cover;
-    padding: 50px 0px;
-    margin: 5px;
-    border-radius: 5px;
-    flex-basis: calc(33.33% - 60px); /* Establece el ancho  en un tercio del ancho del contenedor, menos el margen de 30px a la izquierda y derecha */
-}
-
-.carta img {
-    max-width: 90%;
-    margin-bottom: 20px;
-  }
-
-
-.carta .button {
-
-    bottom: 10px;
-    left: 10px;
-    font-size: 1.5em;
-    max-width: 90%;
-    padding: 10px 20px;
-    border-radius: .1px;
-    background-color: #787AC3;
-    color: #FFF;    
-    text-align: center;
-
-  }
-
-
-
-/*Tamaño minimo de pantalla  para web*/
-@media (min-width: 700px){
   
-
-    #cursos .flexible{
-        display: flex;
-        justify-content: left;
-        flex-wrap: wrap;
+  @media screen and (max-width: 500px) {
+    .contenedorm {
+      flex-direction: column;
     }
-
-    #cursos p{
-        
-        margin-top: 10px;
-        margin-bottom: 10px;
+    
+    .carta, .carta2, .carta3 {
+      width: 100%;
     }
-
-    #cursos h2{
-        font-size: 2em;
-    }
-
-    #cursos h3{
-        margin-top: 0;
-    }
-
-    #cursos .carta{
-        padding: 10px;
-        background-size: 90% 100px;
-        background-repeat: no-repeat;
-     
-       
-    }
-  
-
-
-
-
-   
-}
-
-
-div .dividido{
-    display: flex;
-}
-div .contenido{
-    margin: 50px;
-}
-
-
+  }
