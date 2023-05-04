@@ -83,9 +83,13 @@ div{
 }
 div.dividido{
     display: flex;
+    justify-content: center;
 }
 div.contenido{
     margin: 25px;
+}
+div.CursosPrincipa{
+    max-height: 100px;
 }
 div.contenido-unidades{
     margin: 0px;
