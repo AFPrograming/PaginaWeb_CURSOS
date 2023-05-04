@@ -132,3 +132,6 @@ h5.principal{
     font-weight: bold;
     text-align: center;
 }
+a.ejercicios{
+    text-decoration: none;
+}
