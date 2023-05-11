@@ -1,0 +1,15 @@
+$color-letra: #4361ee;
+$tamletra: xx-large;
+$negrita:bold;
+$alinear: center;
+
+
+h2{
+    font-size: $tamletra;
+    color:  $color-letra;
+    font-weight: $negrita;
+}
+
+body{
+    text-align: $alinear;
+}

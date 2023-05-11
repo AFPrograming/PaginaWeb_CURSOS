@@ -81,13 +81,13 @@ footer.contenedor > a{
 div{
     margin: 50px;
 }
-div.dividido{
+/*div.dividido{
     display: flex;
     justify-content: center;
 }
 div.contenido{
     margin: 25px;
-}
+}*/
 div.desplazar{
     flex-flow: row wrap;
     margin:15px;
