@@ -22,3 +22,6 @@ function redireccionarContenidoIntegral(){
 function redireccionarContenidoAlgebra(){
     window.location.href = "../HTML/ContenidoAlgebra.html"
 }
+function redireccionarCrearCurso(){
+    window.location.href = "../HTML/crear_curso.html"
+}
