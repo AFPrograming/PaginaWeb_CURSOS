@@ -1,7 +1,5 @@
 
-/*Fuente roboto de google fonts
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');*/
-/*margen y relleno en 0 y caja */
+
 
 *{
 margin:0;
@@ -12,23 +10,13 @@ box-sizing: border-box;
 
 body{
     font-family: 'Roboto', sans-serif; /* fuente roboto*/
-    /*fondo
-    background-color: #e5e5f7;
-    opacity: 0.8;
-    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
-    background-size: 10px 10px;*/
-    
-    /* background: url('https://images.unsplash.com/photo-1605478185737-99ae313e940c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZvbmRvJTIwYXp1bHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60'); */
     background: url('https://images.unsplash.com/photo-1583339824000-5afecfd41835?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
-    /*Responsive*/
-    /* display:flex; */
     min-height: 100vh;
 }
 
 
 .form{
     background-color: white;
-    /* border: solid  #b8b8ff; */
     margin:auto;
     width: 90%;
     max-width: 400px;

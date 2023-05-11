@@ -81,7 +81,10 @@ footer.contenedor > a{
 div{
     margin: 50px;
 }
-/*div.dividido{
+div.miscursos{
+    margin: 10px;
+}
+div.dividido{
     display: flex;
     justify-content: center;
 }
@@ -116,4 +119,19 @@ img.contenido{
 img.persona{
     width: auto;
     height: 120px;
+}
+ul.requisito{
+    list-style-type: square;
+}
+li.requisito{
+    float: initial;
+}
+h5.principal{
+    font-size: xx-large;
+    color:  #4361ee;
+    font-weight: bold;
+    text-align: center;
+}
+a.ejercicios{
+    text-decoration: none;
 }
